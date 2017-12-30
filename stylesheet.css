@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	font-family: Roboto, sans-serif;
+}
+
+a {
+	color: #0000EE;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+.game {
+	border: 50px solid black;
+	border-radius: 15px;
+	background-color: black;
+}
