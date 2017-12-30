@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Random verbs</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="verbs.js"></script>
+	<script>
+		function getVerb() {
+			var randomVerb = verbsList[Math.floor(Math.random() * verbsList.length)];
+			if (document.getElementById('it').checked) {
+				randomVerb += ' it';
+			}
+			document.getElementById('p').innerHTML = randomVerb;
+		};
+	</script>
+</head>
+<body>
+	<h1>Random verbs</h1>
+	<p id="p" style="font-size: 3em">click the button to get verbs</p>
+	<button onclick="getVerb();">get verb</button>
+	<div style="height: 1em;"></div>
+	<input id="it" type="checkbox"><label for="it">bop it</label>
+</body>
+</html>

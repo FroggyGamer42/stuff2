@@ -1,4 +1,4 @@
-abate
+var verbsStr = `abate
 abbreviate
 abide
 abort
@@ -2423,4 +2423,5 @@ yield
 yodel
 yowl
 zip
-zoom
+zoom`;
+var verbsList = verbsStr.split('\n');
