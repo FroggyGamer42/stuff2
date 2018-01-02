@@ -21,3 +21,8 @@ a:active {
 	border-radius: 15px;
 	background-color: black;
 }
+
+.homeLink {
+	margin-top: 2em;
+	display: inline-block;
+}
